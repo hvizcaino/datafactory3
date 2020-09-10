@@ -1,0 +1,15 @@
+{
+	"name": "DestinationDataset_yo0",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LinkedCosmos",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "CosmosDbSqlApiCollection",
+		"typeProperties": {
+			"collectionName": "movies"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
